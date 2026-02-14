@@ -60,17 +60,6 @@ The **ForbocAI SDK for Unreal Engine 4.23** brings autonomous NPC capabilities t
 
 `UE4_Arch // Cómponent_Básed`
 
-The SDK uses `UActorComponent` based architecture to easily Attach AI to any `ACharacter` or `APawn`.
-
-```cpp
-// C++ Example
-void AMyNPC::BeginPlay()
-{
-    Super::BeginPlay();
-    AgentComponent->Initialize(TEXT("Guard Persona"), InitialState);
-}
-```
-
 ---
 
 ## Legal
